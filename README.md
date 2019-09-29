@@ -4,4 +4,4 @@ This code was written during a "Project in Machine Learning" (236757) course at 
 
 [1] Golan, Izhak, and Ran El-Yaniv. "Deep anomaly detection using geometric transformations." _Advances in Neural Information Processing Systems (NIPS)_. 2018.
 
-[2] Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. "Spatial transformer networks." _Advances in Neural Information Processing Systems_. 2015.
+[2] Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. "Spatial transformer networks." _Advances in Neural Information Processing Systems (NIPS)_. 2015.
