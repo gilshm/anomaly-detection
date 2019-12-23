@@ -67,7 +67,6 @@ class WideResNet(nn.Module):
         self.bn1 = nn.BatchNorm2d(nChannels[3])
         self.relu = nn.ReLU(inplace=True)
         self.fc = nn.Linear(nChannels[3], num_classes)
-        self.softmax = nn.Softmax(1)
         self.nChannels = nChannels[3]
 
         self.transforms = []
@@ -127,4 +126,4 @@ class WideResNet(nn.Module):
         out = F.avg_pool2d(out, 8)
         out = out.view(-1, self.nChannels)
 
-        return self.softmax(self.fc(out)), trans_out
+        return self.fc(out), trans_out
